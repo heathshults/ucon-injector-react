@@ -1,5 +1,5 @@
 {
-  "name": "ucon-injector-jsx",
+  "name": "ucon-injector-react",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
