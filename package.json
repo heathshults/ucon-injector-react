@@ -1,9 +1,13 @@
 {
   "name": "ucon-injector-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jshint": "^2.9.6",
     "react-scripts": "0.7.0",
+    "stylelint": "^9.8.0",
     "svg-sprite-loader": "0.0.31"
   },
   "dependencies": {
@@ -16,5 +20,22 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathshults/ucon-injector-react.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icon-system"
+  ],
+  "author": "Heath Shults",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heathshults/ucon-injector-react/issues"
+  },
+  "homepage": "https://github.com/heathshults/ucon-injector-react#readme"
 }
