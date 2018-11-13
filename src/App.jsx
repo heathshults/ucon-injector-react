@@ -8,9 +8,9 @@ class App extends Component {
     return (
       <main className="ph3 ph5-l pt4 pb5 dark-gray">
         <div className="mv5">
-          <h2 className="f5 dark-gray ttu tracked">Icon System</h2>
+          <h2 className="f5 dark-gray ttu tracked">React SVG Icon System</h2>
 
-          <p className="gray measure-wide lh-copy">Each icon has been built on a square canvas which results in a square <code className="bg-near-white f5 pa1">viewBox</code> for example: <code className="bg-near-white f5 pa1">viewBox="0 0 20 20"</code>. The width and height attributes are set to <code className="bg-near-white f5 pa1">1em</code>. The fill colour is set to <code className="bg-near-white f5 pa1">currentColor</code>. Therefore, we can easily size and style the icons using font/dimension and colour CSS classes.</p>
+          <p className="gray measure-wide lh-copy">Each fk-ucon has been built on a square canvas which results in a square <code className="bg-near-white f5 pa1">viewBox</code> for example: <code className="bg-near-white f5 pa1">viewBox="0 0 20 20"</code>. The width and height attributes are set to <code className="bg-near-white f5 pa1">1em</code>. The fill colour is set to <code className="bg-near-white f5 pa1">currentColor</code>. Therefore, we can easily size and style the icons using font/dimension and colour CSS classes.</p>
 
           <p className="gray measure-wide lh-copy">usage: <code className="bg-near-white f5 pa1">{ '<Icon type="cloud-with-snow" className="f4 blue" />' }</code></p>
         </div>
