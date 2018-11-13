@@ -1,5 +1,5 @@
-import React from 'react';
-import Icon from './Icon';
+import React from 'react'
+import Icon from './Icon'
 
 const IconCard = ({ name, type, color }) => (
   <li className="fl w-100 w-50-m w-33-l mb4 flex items-center"
@@ -12,6 +12,6 @@ const IconCard = ({ name, type, color }) => (
       <code className="f6 truncate light-silver">{ type }</code>
     </div>
   </li>
-);
+)
 
-export default IconCard;
+export default IconCard

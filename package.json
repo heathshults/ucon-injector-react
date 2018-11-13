@@ -22,7 +22,7 @@
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
+  "main": "index.jsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heathshults/ucon-injector-react.git"

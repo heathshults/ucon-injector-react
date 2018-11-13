@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import IconCard from './IconCard';
-import Icon from './Icon';
-import iconTypes from './icon-types';
+import React, { Component } from 'react'
+import IconCard from './IconCard'
+import Icon from './Icon'
+import iconTypes from './icon-types'
 
 class App extends Component {
   render() {
@@ -61,15 +61,15 @@ class App extends Component {
         </ul>
 
       </main>
-    );
+    )
   }
 }
 
-export default App;
+export default App
 
-const colors = ['dark-gray', 'mid-gray', 'gray', 'silver', 'light-silver', 'moon-gray', 'dark-red', 'red', 'light-red', 'orange', 'gold', 'yellow', 'purple', 'light-purple', 'dark-pink', 'hot-pink', 'pink', 'light-pink', 'dark-green', 'green', 'light-green', 'navy', 'dark-blue', 'blue', 'light-blue', 'lightest-blue', 'washed-red'];
-const l = colors.length;
+const colors = ['dark-gray', 'mid-gray', 'gray', 'silver', 'light-silver', 'moon-gray', 'dark-red', 'red', 'light-red', 'orange', 'gold', 'yellow', 'purple', 'light-purple', 'dark-pink', 'hot-pink', 'pink', 'light-pink', 'dark-green', 'green', 'light-green', 'navy', 'dark-blue', 'blue', 'light-blue', 'lightest-blue', 'washed-red']
+const l = colors.length
 
 function getRandomColor() {
-  return colors[Math.floor(Math.random() * l)];
+  return colors[Math.floor(Math.random() * l)]
 }
